@@ -12,8 +12,8 @@ public class gcd {
         System.out.println("the gcd of "+num1+ " and " + num2+" is "+GCD);
     }
     public static int Gcd(int num1, int num2){
-        int Gcd = 1;
-        int i = 2;
+        int Gcd = 1;//base case 
+        int i = 2;//start checking from 2 
         int least = Least(num1, num2);
         while(i<=least){
             if (num1%i==0 && num2 % i == 0){
@@ -23,8 +23,7 @@ public class gcd {
         }
         
         return Gcd;
-      
-
+    
     }
     public static int Least (int num1 ,int num2){
         if (num1 >num2 ){
