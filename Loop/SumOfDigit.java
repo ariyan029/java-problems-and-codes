@@ -8,7 +8,7 @@ public class SumOfDigit {
         System.out.println("Please enter the number :");
         int num=input.nextInt();
         int sum = DigitSum(num);
-        System.out.println("the sum of the digits of " + num + "is " + sum);
+        System.out.println("the sum of the digits of " + num + " is :" + sum);
     }
     public static int DigitSum (int num ){
         int sum=0;
